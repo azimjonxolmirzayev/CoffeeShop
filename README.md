@@ -50,6 +50,8 @@ cd CoffeeShop</pre>
 <h2>📸 Screenshots</h2>
 <img width="200px" src="https://github.com/user-attachments/assets/7a6de2b6-66d6-4920-94f9-ccccb6f07546" alt="Onboarding screen">
 <img width="200px" src="https://github.com/user-attachments/assets/f92a3d4e-088c-482c-9387-66eb0acbc3ca" alt="Main Screen">
+<img width="200px" src="https://github.com/user-attachments/assets/6517721d-3c35-4920-9bf9-f1d60b3da878" alt="Description Screen">
+
 
 
 <h2>👨‍💻 Author</h2>
