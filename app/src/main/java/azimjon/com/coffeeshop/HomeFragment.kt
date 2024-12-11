@@ -37,7 +37,7 @@ class HomeFragment() : Fragment() {
             RecyclerViewItem(R.drawable.coffee1, "Caffe Mocha", "Latte", "\$ 4.53", "4.8"),
             RecyclerViewItem(R.drawable.coffee2, "Espresso", "Machiato", "\$ 3.50", "4.7"),
             RecyclerViewItem(R.drawable.coffee3, "White coup", "Milkly", "\$ 4.00", "4.6"),
-            RecyclerViewItem(R.drawable.coffee4, "Cappuccino", "Americano", "\$ 4.20", "4.9"),
+            RecyclerViewItem(R.drawable.coffee4, "Cappuccino", "Machiato", "\$ 4.20", "4.9"),
             RecyclerViewItem(R.drawable.coffee4, "Coffes", "Americano", "\$ 4.20", "4.9")
         )
         val coffesviewpageradapter = CoffesViewPagerAdapter(requireActivity(), list, items)

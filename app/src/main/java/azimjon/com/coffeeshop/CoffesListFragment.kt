@@ -1,6 +1,7 @@
 package azimjon.com.coffeeshop
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -19,7 +20,7 @@ class CoffesListFragment() : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = CoffesListFragmentBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
@@ -37,9 +38,22 @@ class CoffesListFragment() : Fragment() {
 
         adapter.setListener(object : RecyclerViewListener {
             override fun onItemClick(position: Int) {
-                Toast.makeText(requireContext(), "Click $position", Toast.LENGTH_SHORT).show()
+                val selectedItem = items?.get(position)
+
+                selectedItem?.let { item ->
+
+                    Intent(requireContext(), DescriptionActivity::class.java).apply {
+                        putExtra("img", item.imageres)
+                        putExtra("name", item.name)
+                        putExtra("category", item.category)
+                        putExtra("star", item.star)
+                        putExtra("price", item.price)
+                        startActivity(this)
+                    }
+                }
             }
         })
+
 
     }
 

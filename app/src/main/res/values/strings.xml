@@ -11,4 +11,6 @@
     <string name="home_location">Location</string>
     <string name="search_coffee">Search coffee</string>
     <string name="banner_text">Buy one get\none FREE</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="detail">Detail</string>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FCEFEF"/> <!-- Tanlangan fon rangi -->
+    <stroke android:width="2dp" android:color="#C95E2C"/> <!-- Chegara rangi -->
+    <corners android:radius="12dp"/> <!-- Yumuq chetlar -->
+</shape>
