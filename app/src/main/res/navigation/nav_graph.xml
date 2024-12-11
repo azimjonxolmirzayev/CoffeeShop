@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="azimjon.com.coffeeshop.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/home_layout" />
+    <fragment
+        android:id="@+id/likesFragment"
+        android:name="azimjon.com.coffeeshop.LikesFragment"
+        android:label="LikesFragment"
+        tools:layout="@layout/likes_layout" />
+    <fragment
+        android:id="@+id/orderFragment"
+        android:name="azimjon.com.coffeeshop.OrderFragment"
+        android:label="OrderFragment"
+        tools:layout="@layout/order_layout" />
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="azimjon.com.coffeeshop.NotificationsFragment"
+        android:label="NotificationsFragment"
+        tools:layout="@layout/notifications_layout" />
+</navigation>

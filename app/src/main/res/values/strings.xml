@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Coffee Shop</string>
+    <string name="onboarding_main_text">Fall in Love with\nCoffee in Blissful\nDelight!</string>
+    <string name="onboarding_description_text">Welcome to our cozy coffee corner, where\nevery cup is a delightful for you.</string>
+    <string name="onboarding_start">Get Started</string>
+    <string name="coffee">Coffee</string>
+    <string name="bottom_nav_home">Home</string>
+    <string name="bottom_nav_likes">Likes</string>
+    <string name="bottom_nav_order">Order</string>
+    <string name="bottom_nav_notifications">Notifications</string>
+    <string name="home_location">Location</string>
+    <string name="search_coffee">Search coffee</string>
+    <string name="banner_text">Buy one get\none FREE</string>
+</resources>
