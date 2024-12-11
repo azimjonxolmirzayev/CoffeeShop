@@ -48,8 +48,9 @@ cd CoffeeShop</pre>
 </ul>
 
 <h2>📸 Screenshots</h2>
-<img width="200px" src="https://github.com/user-attachments/assets/63d77aaf-206c-4de5-a84b-5b4b2cc05e6e" alt="Onboarding screen">
+<img width="200px" src="https://github.com/user-attachments/assets/7a6de2b6-66d6-4920-94f9-ccccb6f07546" alt="Onboarding screen">
 <img width="200px" src="https://github.com/user-attachments/assets/f92a3d4e-088c-482c-9387-66eb0acbc3ca" alt="Main Screen">
+
 
 <h2>👨‍💻 Author</h2>
 <p>Developed by <a href="https://github.com/azimjonxolmirzayev/">Azimjon Xolmirzayev</a>.</p>
